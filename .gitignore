@@ -68,8 +68,7 @@ htmlcov/
 .AppleDouble
 ._*
 
-# Editors (project settings in .vscode/settings.json are still shared)
-.vscode/*
-!.vscode/settings.json
+# Editors
+.vscode/
 .idea/
 *.swp
