@@ -8,3 +8,68 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+
+# Secrets and credentials (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+secrets.*
+.netrc
+.kaggle/
+kaggle.json
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Datasets downloaded by the book's code (re-download instead of committing)
+datasets/
+data/
+*.tgz
+*.tar.gz
+*.zip
+
+# Trained models and checkpoints (can be large; retrain instead)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.keras
+*.ckpt*
+checkpoints/
+my_*_model/
+saved_models/
+
+# TensorBoard and training logs
+my_logs/
+logs/
+runs/
+*.log
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Editors (project settings in .vscode/settings.json are still shared)
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
